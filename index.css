@@ -1,0 +1,234 @@
+#img_animation_container{
+    width: 80%;
+    height: 600px;
+    margin: 10px auto;
+    background-image: url('images/l1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 5px red,3px 3px 10px aqua,4px 4px 15px blue,5px 5px 20px yellow;
+    border-radius: 10px;
+    animation: an2 8s infinite;
+    
+}
+@keyframes an2 {
+    0% {
+      background-image: url('images/l1.jpeg');  
+    }
+    25%{
+      background-image: url('images/l1.jpeg');
+    }
+    50%{
+     background-image: url('images/l2.jpeg');  
+    }
+    75%{
+      background-image: url('images/l3.jpeg');  
+    }
+    100%{
+         background-image: url('images/l4.jpeg');
+    }
+}
+#img_animation_container:hover {
+    animation-play-state: paused;
+}
+
+#marq_container{
+    width: 80%;
+    height: 30px;
+    margin: 3px auto;
+    color: aqua;
+}
+
+#marq_s1 {
+    color: orange;
+}
+marquee:hover {
+    cursor: pointer;
+}
+
+#main_container {
+    width: 80%;
+    margin: 0 auto;
+  
+}
+
+#title_p1 {
+    font-family: "Poppins";
+    font-size: 50px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid;
+    
+}
+#part0 {
+  font-family: 'Playfair Display', serif;
+}
+#title_0 {
+    font-size: 30px;
+    padding: 5px 5px;
+    text-shadow: 1px 1px 5px yellow,1px 1px 5px yellow,1px 1px 5px yellow; 
+    animation: char_an 5s 2s steps(42) infinite;
+    overflow: hidden;
+     white-space: nowrap;
+    word-wrap: break-word;
+    border-right: 1px solid;
+}
+@keyframes an3 {
+    0% {
+       text-shadow: 1px 1px 1px red; 
+    }
+    25% {
+        text-shadow:  1.2px 1.2px 2px blue;
+    }
+    50% {
+       text-shadow: 1.4px 1.4px 3px green; 
+    }
+    75% {
+      text-shadow: 1.6px 1.6px 4px brown;  
+    }
+    100% {
+      text-shadow: 1.8px 1.8px 5px yellow;  
+    }
+}
+/*
+@keyframes char_an {
+    from {
+       width: 0;
+    }
+    to {
+        width: 33ch;
+    }
+}
+*/
+#part0_1_main_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+     color: aliceblue;
+}
+#part0_1_tr{
+    text-align: center;
+    width: 50%;
+  
+}
+.part0_1_tr{
+    text-align: center;
+      border-right: 2px solid;
+     color: aliceblue;
+}
+#part0_1_title_en {
+    font-size: 20px;
+    color: aliceblue;
+}
+#part0_1_title_bu {
+    font-size: 20px;
+     color: aliceblue;
+}
+#part1 {
+    margin: 20px 0;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+#div_title {
+    font-size: 30px;
+    font-family: cursive;
+}
+#part1_table {
+    margin: 0 auto;
+}
+.part1_title {
+  font-size: 30px;
+}
+.block_container {
+ background-color: #ccc;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30%;
+}
+#ss_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#footer {
+    background-color: floralwhite;
+}
+
+.fa-phone {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    font-size: 20px;
+
+}
+
+
+
+  #footer_table
+    {
+      background-color: floralwhite;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #quick_links_container {
+        width: 35%;
+        padding: 10px;
+    }
+    #footer_title {
+        text-align: center;
+        font-family: verdana;
+        font-weight: 100;
+        font-size: 20px;
+        padding: 20px;
+        letter-spacing: 2px;
+    }
+        .footer_link {
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    transition: opacity 2s ease;
+}
+
+.footer_link:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    opacity: 0.5;
+}
+        #footer_sub_table {
+ text-align: center;   
+    
+}
+        .bdr {
+            border-right: 2px solid;
+        }
+        .fa-envelope {
+    font-size: 25px;
+ 
+}
+.contact_details {
+    font-family: arial;
+    padding: 20px;
+    font-size: 20px;
+}
+        .link:hover {
+            color: black;
+        }
+.wid_set {
+   width: 33%; 
+    text-align: center;
+}
+        .link {
+    text-decoration: none;
+    color: blue;
+}
+.fab  {
+            cursor: pointer;
+        }
+        #c {
+    font-size: 25px;
+    font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+}

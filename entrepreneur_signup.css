@@ -1,0 +1,57 @@
+#form_container {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+  
+}
+.cat {
+    font-size: 20px;
+    text-align: left;
+}
+.field_name {
+    color: aliceblue;
+     font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+#lab_con {
+   
+    font-size: 30px;
+width: 50%;
+    padding-right: 20px;
+    font-family: monospace;
+        text-align: right;
+}
+.field {
+    height: 30px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 300px;
+
+}
+.field_more {
+    height: 50px;
+}
+.common_btn {
+    background-color: #0088ff;
+    font-family: verdana;
+    width: auto;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px red,2px 2px 1.5px green,3px 3px 2px blue;
+}
+.common_btn:hover {
+    
+    cursor: pointer;
+    color: black;
+}
+
+#btn_con {
+    width: 100%;
+    text-align: center;
+}

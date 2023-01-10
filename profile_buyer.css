@@ -1,0 +1,200 @@
+#main {
+
+    width: 60%;
+    margin: 10px auto;
+    background-color: aliceblue;
+    padding: 10px
+}
+
+#profile_title {
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+#profile_img {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    padding-right: 20px;
+
+
+}
+
+#un_c {
+    font-size: 30px;
+
+}
+
+#form_container {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.cat {
+    font-size: 20px;
+    text-align: left;
+}
+
+.field_name {
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+#lab_con {
+
+    font-size: 30px;
+    width: 50%;
+    padding-right: 20px;
+    font-family: monospace;
+    text-align: right;
+}
+
+.field {
+    height: 30px;
+    padding: 5px;
+
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 300px;
+
+}
+
+.field_more {
+    height: 50px;
+}
+
+
+
+#change_pp_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    padding: 0 0 20px 20px;
+    display: none;
+    transition: transform 2s;
+    animation: pp_box 2s infinite;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px blue, 2px 2px 2px 2px red, 3px 3px 3px aqua;
+
+}
+
+@keyframes pp_box {
+    from {
+        color: red;
+
+    }
+
+    to {
+        color: green;
+        display: none;
+
+    }
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+.labl {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+#bio_span {
+    font-family: cursive;
+    font-size: 20px;
+
+}
+
+.common_btn_1 {
+    background-color: #0088ff;
+    font-family: verdana;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px red, 2px 2px 1.5px green, 3px 3px 2px blue;
+    widows: auto;
+}
+
+#change_bio {
+    display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+
+.l_border {
+    border-right: 2px solid black;
+
+}
+
+#profile_table_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leg_c {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px red, 2px 2px green;
+}
+
+.sub_labl {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+#personal_detail_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sub_field_r {
+    font-size: 20px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.1);
+    cursor: not-allowed;
+}
+
+
+
+fieldset {
+    width: 80%;
+    margin: 0 auto;
+}

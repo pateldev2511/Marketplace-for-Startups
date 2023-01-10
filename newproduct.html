@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MarketPlace For Startups</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- css files -->
+    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="tempcopy.css">
+</head>
+
+<body>
+    <a name='start' href='#end'></a>
+    <div id="header_container">
+        <table id="table_header">
+            <tr>
+                <td id="logo_container_td"><img src="images/logo.png" alt="Logo" id="logo" align="center"></td>
+                <td id="title_container_td"><span id="web_title">ValueMart</span>
+                    <br><span id='sub_title'>A Premium Business Partner...</span></td>
+                <td id="social_container_td"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-snapchat-ghost"></i></td>
+            </tr>
+        </table>
+    </div>
+    <div id="navbar">
+
+
+        <center>
+            <div id="navbar_container">
+
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Success Stories</a></li>
+                    <li><a href="">Inquiry</a></li>
+                    <li onclick='open_signup_popup();'><a href="#">Sign Up</a></li>
+                    <li><a href="">Log In</a></li>
+                </ul>
+
+
+            </div>
+        </center>
+    </div>
+
+
+    <div id="signup_popup_box">
+        <p id="close_con"><i class="fas fa-times" onclick="close_signup_popup();"></i></p>
+        <br>
+        <p>Select Appropriate Category : </p>
+        <br>
+        <form name="f1">
+            <input type="radio" name="pop_btn_en" id="pop_btn_en" onclick="open_en_signup();">I 'm An Entrepreneur
+            <br><br>
+            <input type="radio" name="pop_btn_en" id="pop_btn_b" onclick="open_b_signup();">I 'm A Buyer
+        </form>
+    </div>
+
+
+
+
+
+<table border="1" bordercolor="black" id='t1'>
+	<tr>
+		<td id="img"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" alt="mobile" align="left"></td>
+		<td><label for="Product"><b>Samsung Galaxy Note8 64GB (T-Mobile)</b></label><br>
+		<label for="Title"><small><align="right">by <font color="blue">Samsung</small></font></label><br>
+		<label for="Price"><b>Price: Rs. 43,990</b></label>
+		<br/><br>
+		<label for="Quantity"><b>Quantity:</b></label>
+		<label for="Quantity"><input type="number" name="quantity" min="1"></label><br/><br/>
+		<label for="Description"><b>Description:</b><br/><br>
+		<align="right">Color: Midnight Black<br/>
+		<align="right">Samsung Galaxy Note 8 smartphone was launched in August 2017. 
+		<align="right">The phone comes with a 6.30-inch touchscreen display with a resolution of 1440 pixels by 2960 pixels. Samsung Galaxy Note 8 price in India starts from Rs. 43,990.
+		 The Samsung Galaxy Note 8 is powered by octa-core (4x2.3GHz + 4x1.7GHz) processor and it comes with 6GB of RAM. 
+		The phone packs 64GB of internal storage that can be expanded up to 256GB via a microSD card. As far as the cameras are concerned, the Samsung Galaxy Note 8 packs a 12-megapixel (f/1.7, 1.4-micron) primary camera and a 12-megapixel (f/2.4, 1.0-micron) secondary camera on the rear and a 8-megapixel front shooter for selfies.
+
+		</label>
+		</td>
+		
+	</tr>
+	
+</table>
+<table border="0" bordercolor="black" id='t2'>
+	<tr>
+	<td>
+	</td>
+	<td>
+		<label for="Frequently bought"><b><align="left">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp View more:</b></label><br>
+		<table>
+		<tr>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="left"></td>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="left"></td>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="left"></td>
+		</tr>
+		</table>
+		<br>
+		
+	</td>
+</table>
+<table border="0" bordercolor="black" id='t2'>
+	<tr>
+	<td>
+	</td>
+	<td>
+<label for="Offers"><b><align="left">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Offers Available:</b></label>
+		<br/><br/>
+		<label for="View Similar Items"><b><align="left">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp View Similar Items:</b></label>
+		<table>
+		<tr>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="right"></td>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="left"></td>
+		<td id="subimg"><img src="https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11918-55-1.jpg" width="100" height="100" alt="mobile" align="left"></td>
+		</tr>
+		</table>
+		<br>
+		
+	</td>
+	
+</table>
+</body>
+</html>
